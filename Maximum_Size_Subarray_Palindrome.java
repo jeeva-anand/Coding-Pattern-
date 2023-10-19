@@ -4,6 +4,10 @@ public class Maximum_Size_Subarray_Palindrome {
         // Optimization is Sliding Window, here the window is variable size: T(n) = O()
 
         int maxSize = 1;
+        
+        for (int windowStart = 0, windowend = 0; windowend < arr.length; windowend++) {
+            
+        }
 
         return 0;
     }
